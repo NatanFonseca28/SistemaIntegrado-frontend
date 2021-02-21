@@ -1,0 +1,75 @@
+{
+    "name": "frontend",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.1",
+        "@syncfusion/ej2-vue-charts": "*",
+        "@syncfusion/ej2-vue-grids": "*",
+        "axios": "^0.21.1",
+        "bootstrap": "^4.0.0",
+        "bootstrap-vue": "^2.18.0",
+        "chartist": "^0.11.0",
+        "core-js": "^3.6.5",
+        "es6-promise": "^4.2.4",
+        "font-awesome": "4.7.0",
+        "highlightjs": "9.10.0",
+        "js-cookie": "^2.2.1",
+        "liquor-tree": "0.2.32",
+        "mdbvue": "^6.7.1",
+        "vue": "2.5.17",
+        "vue-clickaway": "^2.1.0",
+        "vue-gravatar": "1.2.1",
+        "vue-mq": "0.2.1",
+        "vue-notifyjs": "^0.3.0",
+        "vue-responsive": "^1.1.0",
+        "vue-router": "3.0.1",
+        "vue-sidebar-menu": "^4.7.3",
+        "vue-toasted": "1.1.24",
+        "vue2-editor": "2.6.6",
+        "vuesax": "^3.12.2",
+        "vuex": "3.0.1",
+        "vuex-persistedstate": "^4.0.0-beta.1"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^4.5.8",
+        "@vue/cli-plugin-eslint": "3.0.1",
+        "@vue/cli-service": "^4.5.8",
+        "node-sass": "^4.12.0",
+        "sass-loader": "^8.0.2",
+        "stylus": "^0.54.8",
+        "stylus-loader": "^4.2.0",
+        "vue-template-compiler": "2.5.17"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "rules": {
+            "no-console": "off"
+        },
+        "parserOptions": {
+            "parser": "babel-eslint"
+        }
+    },
+    "postcss": {
+        "plugins": {
+            "autoprefixer": {}
+        }
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8"
+    ]
+}
